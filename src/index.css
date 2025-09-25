@@ -2,14 +2,44 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Ramen Yard Custom Styles */
-/* Minimal helpers for ramen palette when needed outside tailwind tokens */
-.bg-ramen-cream { background-color: #FFF3E0; }
-.bg-ramen-beige { background-color: #F7E7CE; }
-.text-ramen-red { color: #D7263D; }
-.text-ramen-dark { color: #0B0A0A; }
-.border-ramen-sesame { border-color: #D1C7B7; }
-.ring-ramen-gold { --tw-ring-color: #E0A106; }
+/* Kambal Inasal Custom Styles */
+/* Modern Filipino-inspired design system */
+
+/* Custom utility classes for the new color palette */
+.bg-inasal-cream { background-color: #FFF8DC; }
+.bg-inasal-beige { background-color: #F5E6D3; }
+.text-inasal-red { color: #E53E3E; }
+.text-inasal-orange { color: #FF6B35; }
+.text-inasal-dark { color: #2D1B1B; }
+.border-inasal-orange { border-color: #FF6B35; }
+.ring-inasal-orange { --tw-ring-color: #FF6B35; }
+
+/* Modern card styles */
+.card-modern {
+  @apply bg-white rounded-2xl shadow-inasal border border-inasal-beige overflow-hidden transition-all duration-300 hover:shadow-inasal-lg hover:-translate-y-1;
+}
+
+.card-grilled {
+  @apply bg-gradient-grilled text-white rounded-2xl shadow-inasal-lg overflow-hidden transition-all duration-300 hover:shadow-inasal-xl hover:scale-105;
+}
+
+/* Button styles */
+.btn-primary {
+  @apply bg-gradient-inasal text-white px-6 py-3 rounded-full font-semibold transition-all duration-300 transform hover:scale-105 hover:shadow-inasal-lg;
+}
+
+.btn-secondary {
+  @apply bg-inasal-orange text-white px-6 py-3 rounded-full font-semibold transition-all duration-300 transform hover:scale-105 hover:bg-inasal-red;
+}
+
+/* Text styles */
+.text-grilled {
+  @apply text-inasal-orange font-bold;
+}
+
+.text-warm {
+  @apply text-inasal-brown;
+}
 
 /* Hide scrollbar for mobile nav */
 .scrollbar-hide {

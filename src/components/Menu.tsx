@@ -94,9 +94,9 @@ const Menu: React.FC<MenuProps> = ({ menuItems, addToCart, cartItems, updateQuan
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
       <div className="text-center mb-12">
         <h2 className="text-4xl font-noto font-semibold text-black mb-4">Our Menu</h2>
-        <p className="text-gray-600 max-w-2xl mx-auto">
-          Discover our selection of authentic dim sum, flavorful noodles, and traditional Asian dishes, 
-          all prepared with fresh ingredients and authentic techniques.
+        <p className="text-warm max-w-2xl mx-auto text-lg">
+          Experience the authentic taste of Filipino grilled chicken, perfectly marinated and cooked to perfection. 
+          From crispy fried delights to traditional inasal, every dish is crafted with love and traditional Filipino flavors.
         </p>
       </div>
 
