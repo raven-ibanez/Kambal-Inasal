@@ -99,7 +99,7 @@ Please confirm this order to proceed. Thank you for choosing Kambal Inasal! 🍗
     `.trim();
 
     const encodedMessage = encodeURIComponent(orderDetails);
-    const messengerUrl = `https://m.me/61579693577478?text=${encodedMessage}`;
+    const messengerUrl = `https://m.me/61553153322766?text=${encodedMessage}`;
     
     window.open(messengerUrl, '_blank');
     
